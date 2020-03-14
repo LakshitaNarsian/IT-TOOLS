@@ -1,4 +1,4 @@
-#Defining Base class 'Shape'  
+# Defining Base class 'Shape'  
 class Shape:
 
     def _get_Length_Breadth(self):
@@ -7,17 +7,17 @@ class Shape:
         self._breadth = int(input("Enter Breadth: "))
 
 
-#Defining Derived class 'Rectangle'  
+# Defining Derived class 'Rectangle'  
 class Rectangle(Shape):
 
     def calculate_area(self):
-        #function to calculate area of rectangle
+        # Function to calculate area of rectangle
         print("Area of Rectangle is ", self._length * self._breadth)
 
 
-#Creating Object 
+# Creating Object 
 obj = Rectangle()
-#Calling function to get input
+# Calling function to get input
 obj._get_Length_Breadth()
-#Calling function to get the area of rectangle
+# Calling function to get the area of rectangle
 obj.calculate_area()
