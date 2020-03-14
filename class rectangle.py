@@ -1,7 +1,8 @@
 class Rectangle:
 
+    
     def CalculateArea(self):
-#this function will accept input of length and breadth and calculate area
+# This function will accept input of length and breadth and calculate area
         self.width=int(input("Enter Length:"))
         self.height=int(input("Enter breadth:"))
         area=self.width*self.height
@@ -10,7 +11,7 @@ class Rectangle:
 
 
     def CalculatePerimeter(self):
-#this function will accept input and calculate perimeter
+# This function will accept input and calculate perimeter
         perimeter=2*(self.width+self.height)
         print(perimeter)
         return (perimeter)
@@ -20,18 +21,18 @@ class Rectangle:
 class Square:
 
     def CalculateArea(self):
-#this function will accept input side and calculate area
+# This function will accept input side and calculate area
         print("Enter side:")
         self.s=float(input())
         area=self.s*self.s
         return(area)
 
     def CalculatePerimeter(self):
-#this function will accept input and calculate perimeter
+# This function will accept input and calculate perimeter
         perimeter=4*self.s
         return(perimeter)
 
-#calling the functions
+# Creating objects and calling the functions
 c=Square()
 x=c.CalculateArea()
 y=c.CalculatePerimeter()
