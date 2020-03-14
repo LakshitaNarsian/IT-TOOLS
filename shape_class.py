@@ -13,7 +13,7 @@ class Rectangle(Shape):
 
     
     def calculate_area(self):
-        # Function to calculate area of rectangle
+        # Function to calculate area of rectangle 
         print("Area of Rectangle is ", self._length * self._breadth)
 
 
